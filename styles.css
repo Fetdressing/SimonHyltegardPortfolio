@@ -1,10 +1,8 @@
-<style>
 body {
   background-color: RGB(10, 10, 35);
   text-align: center;
   color: RGB(220, 220, 220);
   font-family: Arial, Helvetica, sans-serif;
-  href: RGB(10, 10, 10)
 }
 
 /* Link style */
@@ -65,5 +63,4 @@ margin-left: auto;
 margin-top: 9px;  
 border-width: 1px;  
 border-color: black;  
-}  
-</style>
+}
