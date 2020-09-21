@@ -3,12 +3,12 @@
   --backgroundCol: RGB(35, 35, 50);
   --barCol: RGB(65, 65, 90);
   
-  --headerSize: 260px;
-  --footerSize: 130px;
+  --headerSize: 13%;
+  --footerSize: 11%;
   font-size: 22px;
   
-  --youtubeWidth: 33%;
-  --youtubeHeight: 25%;
+  --youtubeWidth: 33vmin;
+  --youtubeHeight: 25vmin;
 }
 
 body {
@@ -30,6 +30,8 @@ body {
 	text-align: center;
 	background:var(--barCol);
 	padding:2px;
+	width:100%;
+	top: 0;
 	height: var(--headerSize);
 }
 
