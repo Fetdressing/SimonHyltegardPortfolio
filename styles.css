@@ -6,6 +6,9 @@
   --headerSize: 260px;
   --footerSize: 130px;
   font-size: 22px;
+  
+  --youtubeWidth: 33%;
+  --youtubeHeight: 25%;
 }
 
 body {
@@ -14,6 +17,7 @@ body {
 	color: RGB(220, 220, 220);
 	font-family: Courier, Serif, Arial, Helvetica, sans-serif;
 	height: 100%;
+	width: 100%;
 }
 
 #container {
