@@ -5,7 +5,7 @@
   
   --headerSize: 13%;
   --footerSize: 11%;
-  font-size: 22px;
+  font-size: 1.4vmin;
   
   --youtubeWidth: 33vmin;
   --youtubeHeight: 25vmin;
@@ -111,12 +111,19 @@ a:active {
 
 /* Block, smaller on the width. */
 .compactBlock {
-  background-color: transparent;
-  margin-right: 25%;  
-  margin-left: 25%; 
-  margin-bottom: 7px;  
-  margin-top: 9px;  
-  color: white;
-  border: 2px solid black;
-  padding: 20px;
+	position: relative;
+	background-color: transparent;
+	margin-right: 25%;  
+	margin-left: 25%; 
+	color: white;
+	border: 2px solid black;
+	padding: 4vmin;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
