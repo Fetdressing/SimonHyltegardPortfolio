@@ -5,10 +5,10 @@
   
   --headerSize: 13%;
   --footerSize: 11%;
-  font-size: 1.4vmin;
+  font-size: 2vmin;
   
-  --youtubeWidth: 33vmin;
-  --youtubeHeight: 25vmin;
+  --youtubeWidth: 33vw;
+  --youtubeHeight: calc(var(--footerSize) * 0.75);
 }
 
 body {
@@ -119,6 +119,18 @@ a:active {
 	color: white;
 	border: 2px solid black;
 	padding: 4vmin;
+	font-size: auto;
+}
+
+.compactBlock2 {
+	position: relative;
+	background-color: transparent;
+	text-align: left;
+	margin-right: 5%;  
+	margin-left: 5%; 
+	color: white;
+	border: 2px solid black;
+	padding: 8vmin;
 	font-size: auto;
 }
 
