@@ -7,12 +7,16 @@
   --footerSize: 11%;
   font-size: 2vmin;
   
-  --youtubeWidth: 33vw;
-  --youtubeHeight: calc(var(--footerSize) * 0.75);
+  --youtubeWidth: 30%;
+  --youtubeHeight: 25%;
 }
 
 body {
 	background-color: var(--backgroundCol);
+	background-image: url("Piratemap01.PNG");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
 	text-align: center;
 	color: RGB(220, 220, 220);
 	font-family: Courier, Serif, Arial, Helvetica, sans-serif;
@@ -125,7 +129,7 @@ a:active {
 .compactBlock2 {
 	position: relative;
 	background-color: transparent;
-	text-align: left;
+	text-align: center;
 	margin-right: 5%;  
 	margin-left: 5%; 
 	color: white;
