@@ -15,21 +15,36 @@
 
 	<!--HEADER-->
 	<div id="header">
-	<p style="font-size: 3.6vmin"><b>Simon Hyltegård - <small>Technical Artist</small></b><p>
+	<p style="font-size: 3.2vmin"><b>Simon Hyltegård - <small>Technical Artist</small></b><p>
 
-	<button class="button" onclick="window.location.href='index.html'"> <b>Home</b></button>
-	<button class="button" onclick="window.location.href='projects.html'"> <b>My Projects</b></button>
-	<button class="button" onclick="window.open('https://github.com/Fetdressing')"><b>Github</b></button>
-	<button class="button" onclick="window.open('CV_SimonHyltegard.pdf')"><b>CV</b></button>
+
+	<div id="mulCols" style="height:100%; margin-left: 40%; width:20%; overflow: hidden;">
+
+		<div id="con1" style="float: left; width:25%; height: 100%; background-color:transparent;">
+			<button class="button" onclick="window.location.href='index.html'" style="width: 95%;"> <b>Home</b></button>
+		</div>
+		
+		<div id="con2" style="float: left; width:25%; height: 100%; background-color:transparent;">
+			<button class="button" onclick="window.location.href='projects.html'" style="width: 95%;"> <b>My Projects</b></button>
+		</div>
+		
+		<div id="con3" style="float: left; width:25%; height: 100%; background-color:transparent;">
+			<button class="button" onclick="window.open('https://github.com/Fetdressing')" style="width: 95%;"><b>Github</b></button>
+		</div>
+		
+		<div id="con4" style="float: left; width:25%; height: 100%; background-color:transparent;">
+			<button class="button" onclick="window.open('CV_SimonHyltegard.pdf')" style="width: 95%;" ><b>CV</b></button>
+		</div>
+	</div>
 
    </div>
    
    <!--BODY-->
    <div id="body">   
    <br>
-   <div class = compactBlock>
+   <div class = compactBlock style="padding: 10vmin; border: 2px transparent;">
 	   <div class="text">
-		 Technical Artist focused on front-end development with 8 years experience in Unity3D
+		<b>Technical Artist</b> focused on front-end development with 8 years experience in Unity3D
 		and an early starting career using <b>Warcraft3</b>'s World Editor. A strong desire to get
 		started creating games after school lead to running a game company
 		under Blekinge Business Incubator, with one released game.
@@ -50,7 +65,7 @@
    <div id="footer">
 
 	<p><b>Contact me</b><br>
-	simon.home@hotmail.com"<br>
+	simon.home@hotmail.com<br>
 	+46721744454
 	</p>
    </div>

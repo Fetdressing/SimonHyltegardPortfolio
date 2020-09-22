@@ -57,7 +57,7 @@ body {
 hr  
 {  
 width: 95%;  
-height: 4px;  
+height: 6px;  
 background-color: green;  
 margin-bottom: 7px;  
 margin-right: auto;  
@@ -98,12 +98,12 @@ a:active {
   border: none;
   color: white;
   background-color: RGB(100, 100, 100);
-  padding: 16px 32px;
+  padding: 8px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
+  font-size: auto;
+  margin: 1px 2px;
   transition-duration: 0.2s;
   cursor: pointer;
 }
@@ -133,7 +133,7 @@ a:active {
 	margin-right: 5%;  
 	margin-left: 5%; 
 	color: white;
-	border: 2px solid black;
+	border: 2px transparent;
 	padding: 8vmin;
 	font-size: auto;
 }
