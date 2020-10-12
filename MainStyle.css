@@ -1,0 +1,14 @@
+@import "styles.css"; 
+
+body {
+	background-color: var(--backgroundCol);
+	background-image: url("Images/Background1.PNG");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	text-align: center;
+	color: RGB(220, 220, 220);
+	font-family: Courier, Serif, Arial, Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+}

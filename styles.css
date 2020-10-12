@@ -1,56 +1,60 @@
 
 :root {
   --backgroundCol: RGB(35, 35, 50);
-  --barCol: RGB(65, 65, 90);
+  --barCol: #d56f2c;
   
-  --headerSize: 13%;
-  --footerSize: 11%;
+  --headerSize: 20%;
+  --footerSize: 18%;
   font-size: 2vmin;
   
   --youtubeWidth: 30%;
   --youtubeHeight: 25%;
 }
 
-body {
-	background-color: var(--backgroundCol);
-	background-image: url("Piratemap01.PNG");
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container */
-	text-align: center;
-	color: RGB(220, 220, 220);
-	font-family: Courier, Serif, Arial, Helvetica, sans-serif;
-	height: 100%;
-	width: 100%;
-}
-
 #container {
 	min-height:100%;
-	width: 100%
+	width: 100%;
 	position:relative;
 }
 
 #header {
+	position: relative;
 	text-align: center;
-	background:var(--barCol);
-	padding:2px;
-	width:100%;
+	background-image: url("Images/HeaderBackground.PNG");
+	background-position: center;
+	background-size: cover;
+	/*padding:2px;*/
+	/*width:100%;*/
+	right: 0;
+	left: 0;
 	top: 0;
 	height: var(--headerSize);
+	border: 3px solid black;
 }
 
-#body {
-   padding:2px;
-   padding-bottom:var(--footerSize);   /* Height of the footer */
+
+
+#main {
+	position: relative;
+	top: var(--headerSize);
+	bottom: var(--footerSize);
+	right: 0;
+	left: 0;
+   /* padding:2px; */
+   /* padding-bottom:var(--footerSize);   /* Height of the footer */ */
 }
 
 #footer {
-	text-align: center;
-	position:absolute;
+	position: relative;
+	text-align: center;	
+	background-image: url("Images/FooterBackground.PNG");
+	background-position: center;
+	background-size: cover;
 	bottom:0;
-	width:100%;
+	right: 0;
+	left: 0;
 	height:var(--footerSize);   /* Height of the footer */
-	background: var(--barCol);
+	border: 3px solid black;
 }
 
 /* Line style */
