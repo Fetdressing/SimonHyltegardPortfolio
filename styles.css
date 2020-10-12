@@ -37,7 +37,7 @@
 #main {
 	position: relative;
 	top: var(--headerSize);
-	bottom: var(--footerSize);
+	/* bottom: var(--footerSize); */
 	right: 0;
 	left: 0;
    /* padding:2px; */
@@ -99,17 +99,17 @@ a:active {
 
 /* Button style */
 .button {
-  border: none;
+  border: 3px solid black;
   color: white;
   background-color: RGB(100, 100, 100);
-  padding: 8px 8px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: auto;
-  margin: 1px 2px;
   transition-duration: 0.2s;
+  height: 8vmin;
   cursor: pointer;
+  padding: 5px;
 }
 
 .button:hover {
@@ -122,8 +122,8 @@ a:active {
 	position: relative;
 	background-color: transparent;
 	text-align: left;
-	margin-right: 25%;  
-	margin-left: 25%; 
+	margin-right: 20%;  
+	margin-left: 20%; 
 	color: white;
 	border: 2px solid black;
 	padding: 4vmin;
