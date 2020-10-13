@@ -61,7 +61,7 @@
 hr  
 {  
 width: 95%;  
-height: 6px;  
+height: 0.6vmin;  
 background-color: green;  
 margin-bottom: 7px;  
 margin-right: auto;  
@@ -75,7 +75,7 @@ border-color: black;
 a:link {
   color: yellow;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -169,10 +169,31 @@ a:active {
 	font-size: auto;
 }
 
+.compactBlockProject {
+	position: relative;
+	background-color: transparent;
+	text-align: center;
+	margin-right: 5%;  
+	margin-left: 5%; 
+	color: white;
+	border: 0.3vmin white;
+	border-style: dotted;
+	padding: 0vmin;
+	font-size: auto;
+}
+
 .text {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.imageProj
+{
+  max-width: 40%;
+  max-height: 40%;
+  margin: auto;
+  display: block;
 }
