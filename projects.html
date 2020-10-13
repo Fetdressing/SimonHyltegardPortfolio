@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>Projects</title>
+<title>Simon Hyltegard-Projects</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="secStyle.css">
@@ -11,6 +11,7 @@
 
 <body>
 
+<div id="container">
 <h1>My projects</h1>
 <p>Presenting some of the projects that I've worked on.</p>
 
@@ -19,72 +20,85 @@
 <hr> <!-- Line -->
 <h2>Work Projects:</h2>
 
+
+<style>
+	#youtubeMainFrame { width:70%; height:70%; display:block; margin-left: 15%;  }
+    #youtubeSideFrame { width:90%; height:90%; display:block;  }
+</style>
+
+
+<div class = compactBlock style="height: 58vmin; padding: 0vmin; font-size: auto; border: 2px transparent; text-align: center;">
 <h3>Paper Game</h3>
-<iframe width="var(--youtubeWidth)" height="var(--youtubeHeight)"
-src="https://www.youtube.com/embed/5f-cT4cFtpk">
+<iframe id="youtubeMainFrame";
+src="https://www.youtube.com/embed/5f-cT4cFtpk";>
 </iframe>
-<pre>Worked as a front-end/technical artist with a main focus on building UI.
+<div class = compactBlock2 id="youtubeMainFrame">Worked as a front-end/technical artist with a main focus on building UI.
 Also worked on for example creating in-engine tools,
-automated tests and doing juicy effects.</pre><br></br>
+automated tests and doing juicy effects.</div>
+</div>
 
+<br>
+
+<div class = compactBlock style="height: 58vmin; padding: 0vmin; font-size: auto; border: 2px transparent; text-align: center;">
 <h3>King of The Couch:Zoovival</h3>
-<iframe width="var(--youtubeWidth)" height="var(--youtubeHeight)"
-src="https://www.youtube.com/embed/oOqsnQajhgU">
+<iframe id="youtubeMainFrame";
+src="https://www.youtube.com/embed/oOqsnQajhgU";>
 </iframe>
-<pre>Main role as artist where I did 3D-modelling, 
+<div class = compactBlock2 id="youtubeMainFrame">Main role as artist where I did 3D-modelling, 
 rigging and animation, but also things like building scenes
-and creating simple graphic scripts.</pre><br></br>
+and creating simple graphic scripts.</div>
+<a href="https://store.steampowered.com/app/724350/King_of_the_Couch_Zoovival/">Steam Link</a>
+</div>
 
+<br>
+
+<div class = compactBlock style="height: 58vmin; padding: 0vmin; font-size: auto; border: 2px transparent; text-align: center;">
 <h3>BossForge</h3>
-<iframe width="var(--youtubeWidth)" height="var(--youtubeHeight)"
-src="https://www.youtube.com/embed/AD-YG0Yrk-s">
+<iframe id="youtubeMainFrame";
+src="https://www.youtube.com/embed/AD-YG0Yrk-s";>
 </iframe>
-<pre>Worked on building environment, creating trailer and character creation (modelling, texturing, rigging and animation).</pre><br></br>
+<div class = compactBlock2 id="youtubeMainFrame">Worked on building environment, creating trailer and
+character creation (modelling, texturing, rigging and animation).</div>
+</div>
 
 <hr> <!-- Line -->
 <h2>School Assignments:</h2>
 
 <div id="mulCols" style="height:100%; margin-left: 10%; width:90%; overflow: hidden;">
-    <div id="leftCon" style="float: left; width:30%; background-color:transparent;">
+    <div id="nfbCon" style="float: left; width:30%; background-color:transparent;">
 		<h3>Need for Beans</h3>
-		<iframe margin-right:"10%;" margin-left:"10%;"
-		src="https://www.youtube.com/embed/WX4Wg5ORuRQ">
+		<iframe id="youtubeSideFrame";
+		src="https://www.youtube.com/embed/WX4Wg5ORuRQ";>
 		</iframe>
 		
 		<div class = compactBlock2>
-		<div class="text">
 		A racing game made in Unity3D. Built gameplay logic and main loop of the game. Also some graphics.
 		</div>
-		</div>
 	</div>
 	
-    <div id="middleCon" style="float: left; width:30%; background-color:transparent;">
-		<h3>Walk of Life</h3>
-		<iframe margin-right:"10%;" margin-left:"10%;"
-		src="https://www.youtube.com/embed/Y5DaUkYSyh0">
-		</iframe>
-
-		<div class = compactBlock2>
-		<div class="text">
-		A simple game made in DirectX for a school assignment. Worked on collision and gameplay logic.
-		</div>
-		</div>
-	</div>
-	
-    <div id="rightCon" style="float: left; width:30%; background-color:transparent;">
+    <div id="anbCon" style="float: left; width:30%; background-color:transparent;">
 		<h3>Argee n' Beats</h3>
-		<iframe margin-right:"10%;" margin-left:"10%;"
-		src="https://www.youtube.com/embed/4Mtn9GxZqxM">
+		<iframe id="youtubeSideFrame";
+		src="https://www.youtube.com/embed/4Mtn9GxZqxM";>
 		</iframe>
 
 		<div class = compactBlock2>
-		<div class="text">
 		A game where you use sound from your microphone to traverse levels. Created a solution for allowing us to build levels with Autodesk Maya while rendering in our own DirectX engine.
 		</div>
+	</div>
+	
+	<div id="wolCon" style="float: left; width:30%; background-color:transparent;">
+		<h3>Walk of Life</h3>
+		<iframe id="youtubeSideFrame";
+		src="https://www.youtube.com/embed/Y5DaUkYSyh0";>
+		</iframe>
+
+		<div class = compactBlock2>
+		A simple game made in DirectX for a school assignment. Worked on collision and gameplay logic.
 		</div>
 	</div>
 </div>
-
+</div>
 
 </body>
 
