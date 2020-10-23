@@ -79,7 +79,7 @@ a:link {
 }
 
 a:visited {
-  color: pink;
+  color: yellow;
   background-color: transparent;
   text-decoration: none;
 }
@@ -159,8 +159,8 @@ a:active {
 
 .compactBlock2 {
 	position: relative;
-	background-color: transparent;
-	text-align: center;
+	background-color: RGBA(20, 20, 20, 0.8);
+	text-align: left;
 	margin-right: 5%;  
 	margin-left: 5%; 
 	color: white;
@@ -193,8 +193,8 @@ a:active {
 	margin-right: 5%;  
 	margin-left: 5%; 
 	color: white;
-	border: 0.7vmin solid orange;
-	border-style: dotted;
+	border: 0.55vmin solid orange;
+	border-style: solid;
 	padding: 0vmin;
 	font-size: auto;
 }
