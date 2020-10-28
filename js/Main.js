@@ -7,3 +7,7 @@ function WriteEMail()
 {
 	document.write("simon.home@hotmail.com");
 }
+
+function GoBack() {
+  window.history.back();
+}
