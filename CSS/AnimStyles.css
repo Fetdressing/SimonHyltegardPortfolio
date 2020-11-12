@@ -1,0 +1,26 @@
+@keyframes buttonHoverAnim {
+  0%   {transform: rotate(0deg) scale(1)}
+  25%  {transform: rotate(1deg) scale(1.01)}
+  50%  {transform: rotate(0deg) scale(1.03)}
+  75%  {transform: rotate(-1deg) scale(1.01)}
+  100% {transform: rotate(0deg) scale(1)}
+}
+
+@keyframes popAnim {
+  0%   {transform: rotate(0deg) scale(1)}
+  30%  {transform: rotate(0deg) scale(1.2)}
+  100% {transform: rotate(0deg) scale(1)}
+}
+
+@keyframes scaleInAnim {
+  0%   {transform: rotate(0deg) scale(0)}
+  70%  {transform: rotate(0deg) scale(1.2)}
+  100% {transform: rotate(0deg) scale(1)}
+}
+
+@keyframes scaleInDelayedAnim {
+  0%   {transform: rotate(0deg) scale(0)}
+  40%  {transform: rotate(0deg) scale(0)}
+  70%  {transform: rotate(0deg) scale(1.2)}
+  100% {transform: rotate(0deg) scale(1)}
+}
